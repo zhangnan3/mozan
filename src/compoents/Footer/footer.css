@@ -1,0 +1,108 @@
+
+.footerup{
+   width: 100%;
+   background-color: #000;
+}
+.footerin{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 58px 72px 47px 72px;
+    display: flex;
+}
+.shop p{
+    font-size: 24px;
+     color: #fff;
+     margin-bottom: 18px;
+
+}
+.shop{
+    list-style: none;
+
+    margin-right: 42px;
+}
+.shop li{
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+}
+.shop2{
+    color: #ffd801;
+    font-size: 24px;
+}
+.shop1 {
+    margin-top: 54px;
+    list-style: none;
+
+
+}
+.shop1 li{
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+
+}
+.are{
+     display: flex;
+    margin-left: 154px;
+}
+.are p{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 27px;
+}
+.are img:nth-child(4){
+    margin-left: 25px;
+}
+.pic2{
+
+}
+ .pic1{
+
+    margin-top: 87px;
+    margin-left: 30px;
+}
+.pic1 img:nth-child(3){
+    margin-left: 25px;
+}
+.ser{
+
+    margin-left: 189px;
+}
+.ser p{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 27px;
+}
+.ser span b{
+   color: #fff;
+   font-size: 24px;
+}
+.ser span{
+    color: #fff;
+}
+.footerdown{
+    width: 100%;
+    background-color: #2b2e33;
+}
+.footeron{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+}
+.footeron a{
+    display: block;
+   padding-top: 15px;
+
+}
+.footeron p{
+    width: 503px;
+  margin-left: 300px;
+  text-align: center;
+  color: #707378;
+
+  margin-bottom: 30px;
+}
+.active{
+    background-color: yellow;
+}
