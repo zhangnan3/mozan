@@ -1,0 +1,181 @@
+body{
+  margin: 0;
+}
+.joinup{
+       width: 1200px;
+       margin: 0 auto;
+
+   }
+.shop9{
+    width: 1200px;
+     height: 130px;
+     background-image: url("../../images/line3_03.jpg");
+     padding-left: 30px;
+     padding-top: 30px;
+   }
+   .shop9 p{
+       font-size: 20px;
+       border-left: 3px solid #000;
+       padding-left: 10px;
+  }
+  form{
+    width: 1200px;
+    margin: 0 auto;
+  }
+.title{
+        padding-bottom: 12px;
+        border-bottom: 2px solid #2b2e33;
+      }
+.title label,form .title span{
+          font-size: 14px;
+          color:#424649;
+      }
+ .title span:nth-child(3){
+          margin-left: 30px;
+          margin-right: 488px;
+      }
+      form .title span:nth-child(5){
+          margin-left: 152px;
+          margin-right: 142px;
+      }
+      form .title span:nth-child(6){
+          margin-right: 60px;
+      }
+      .goods{
+          padding: 20px 25px 20px 20px;
+          border-bottom: 1px solid #d1d7e3;
+          position:relative;
+      }
+      .goods>input,.goods>a, .goods>p{
+          float: left;
+      }
+      .goods>input{
+          margin: 35px 48px 0 0;
+      }
+      .goods img{
+          display: block;
+          margin-right: 10px;
+      }
+      .goods>p>a{
+          width: 240px;
+          color:#474a4f;
+          font-size:14px;
+          margin-bottom: 18px;
+      }
+      .goods>p>a:hover{
+          color:#fdd900;
+      }
+      .goods>p>span{
+          display: block;
+          font-size: 14px;
+          color:#b6b7b7;
+      }
+      .goods .money{
+          float: right;
+          margin-top: 28px;
+      }
+      .goods .money a,.goods .money>span,.goods .money p{
+          float: left;
+          line-height: 36px;
+          color: #000;
+      }
+      .goods .money>span,.goods .money p{
+          font-size: 14px;
+      }
+      .goods .money .add,.goods .money .red{
+          width: 36px;
+          font-size: 18px;
+          color:#000;
+          text-align: center;
+          border:1px solid #2d2e32;
+
+      }
+      .goods .money .add{
+          margin-left: 65px;
+          margin-right: 48px;
+      }
+      .goods .money .red{
+          margin-left: 48px;
+          margin-right: 70px;
+      }
+      .goods .money>p:nth-child(5){
+          width: 30px;
+          margin-right: 72px;
+          color:#f20201;
+      }
+      .goods .money .qty{
+          width: 10px;
+      }
+      .end{
+          padding-top: 50px;
+          padding-bottom: 79px;
+          border-top: 2px solid #2d2d35;
+          position: relative;
+      }
+
+      .endleft{
+          width: 880px;
+          background-color: #2b2e33;
+          float: left;
+
+      }
+      .endleft input,.endleft label,.endleft>a,.endleft>p{
+          float: left;
+          color:#fff;
+          font-size: 14px;
+          line-height: 60px;
+      }
+      .endleft input{
+          margin: 22px 10px 0 20px;
+      }
+      .endleft>a{
+          margin-left: 14px;
+          padding-right: 120px;
+      }
+      .endleft a i{
+          margin-right: 3px;
+      }
+      .endleft>p{
+          margin-top: 20px;
+          padding-left: 20px;
+          line-height: 20px;
+          border-left: 2px solid #6f7277;
+      }
+      .endleft>p>span{
+          color:#f5d204;
+      }
+      .endleft>div{
+          float: right;
+          margin-right: 20px;
+      }
+      .endleft>div>p:nth-child(1){
+          width: 72px;
+          float: left;
+          margin-top: 13px;
+      }
+      .endleft>div>p:nth-child(1)>span{
+          display: block;
+          float: right;
+          font-size: 14px;
+          color:#fff;
+      }
+      .endleft>div>p:nth-child(2){
+          float: right;
+          line-height: 60px;
+          color:#f5d204;
+          font-size: 34px;
+
+      }
+
+      .endright{
+          float: right;
+      }
+      .endright a{
+          display: block;
+          width: 220px;
+          line-height: 60px;
+          background-color: #fdd900;
+          text-align: center;
+          color:#2a2f32;
+          font-size: 26px;
+      }
