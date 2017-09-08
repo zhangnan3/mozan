@@ -10,8 +10,6 @@ import Logo2 from "../Logo1/Logo3"
 class Shang extends Component {
   render (){
     return(
-
-
         <div className="shang">
           <div className="join">
       <div className="joinup">
@@ -20,7 +18,6 @@ class Shang extends Component {
         </div>
       </div>
       <div>
-
       </div>
       <div className="clearfix">
         <div className="pic clearfix">

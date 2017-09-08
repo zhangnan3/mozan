@@ -14,6 +14,7 @@ body{
      padding-top: 30px;
    }
    .shop9 p{
+
        font-size: 20px;
        border-left: 3px solid #000;
        padding-left: 10px;
@@ -31,17 +32,21 @@ body{
           color:#424649;
       }
  .title span:nth-child(3){
-          margin-left: 30px;
+          margin-left: 50px;
           margin-right: 488px;
       }
+      form .title span:nth-child(4){
+          margin-left: 90px;
+          margin-right: 100px;
+      }
       form .title span:nth-child(5){
-          margin-left: 152px;
-          margin-right: 142px;
+          margin-left: 90px;
+          margin-right: 100px;
       }
       form .title span:nth-child(6){
           margin-right: 60px;
       }
-      .goods{
+    form   .goods{
           padding: 20px 25px 20px 20px;
           border-bottom: 1px solid #d1d7e3;
           position:relative;
@@ -55,6 +60,9 @@ body{
       .goods img{
           display: block;
           margin-right: 10px;
+      }
+      form .long a:hover{
+        color: yellow;
       }
       .goods>p>a{
           width: 240px;
@@ -78,6 +86,9 @@ body{
           float: left;
           line-height: 36px;
           color: #000;
+      }
+      a{
+        text-decoration: none;
       }
       .goods .money>span,.goods .money p{
           font-size: 14px;
@@ -106,76 +117,19 @@ body{
       .goods .money .qty{
           width: 10px;
       }
-      .end{
-          padding-top: 50px;
-          padding-bottom: 79px;
-          border-top: 2px solid #2d2d35;
-          position: relative;
-      }
 
-      .endleft{
-          width: 880px;
-          background-color: #2b2e33;
-          float: left;
+      .word{
+       float: right;
+       margin-right: 30px;
 
-      }
-      .endleft input,.endleft label,.endleft>a,.endleft>p{
-          float: left;
-          color:#fff;
-          font-size: 14px;
-          line-height: 60px;
-      }
-      .endleft input{
-          margin: 22px 10px 0 20px;
-      }
-      .endleft>a{
-          margin-left: 14px;
-          padding-right: 120px;
-      }
-      .endleft a i{
-          margin-right: 3px;
-      }
-      .endleft>p{
-          margin-top: 20px;
-          padding-left: 20px;
-          line-height: 20px;
-          border-left: 2px solid #6f7277;
-      }
-      .endleft>p>span{
-          color:#f5d204;
-      }
-      .endleft>div{
-          float: right;
-          margin-right: 20px;
-      }
-      .endleft>div>p:nth-child(1){
-          width: 72px;
-          float: left;
-          margin-top: 13px;
-      }
-      .endleft>div>p:nth-child(1)>span{
-          display: block;
-          float: right;
-          font-size: 14px;
-          color:#fff;
-      }
-      .endleft>div>p:nth-child(2){
-          float: right;
-          line-height: 60px;
-          color:#f5d204;
-          font-size: 34px;
-
-      }
-
-      .endright{
-          float: right;
-      }
-      .endright a{
-          display: block;
-          width: 220px;
-          line-height: 60px;
-          background-color: #fdd900;
-          text-align: center;
-          color:#2a2f32;
-          font-size: 26px;
-      }
+   }
+    .word>span{
+       font-size:18px;
+       color:#2c2d32;
+       line-height: 36px;
+       border-bottom: 2px solid #000;
+       margin-left: 20px;
+   }
+    .word>span:first-child{
+       border-bottom: 5px solid #000;
+   }

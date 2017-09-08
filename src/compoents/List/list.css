@@ -1,0 +1,18 @@
+.joinup{
+       width: 1200px;
+       margin: 0 auto;
+
+   }
+.shop9{
+    width: 1200px;
+     height: 130px;
+     background-image: url("../../images/line3_03.jpg");
+     padding-left: 30px;
+     padding-top: 30px;
+   }
+   .shop9 p{
+
+       font-size: 20px;
+       border-left: 3px solid #000;
+       padding-left: 10px;
+  }
