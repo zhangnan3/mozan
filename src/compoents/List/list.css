@@ -16,3 +16,83 @@
        border-left: 3px solid #000;
        padding-left: 10px;
   }
+.joindown{
+  width: 1200px;
+  margin: 0 auto;
+}
+.adr{
+  width: 1100px;
+  margin: 0 auto;
+}
+.adr{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #2b2e35;
+    padding-bottom: 14px;
+}
+.adr>p:nth-child(1){
+    float: left;
+}
+.adr>a{
+    float: right;
+    color:#000;
+}
+.adr>a i{
+    color:#000;
+    margin-right: 10px;
+}
+.list{
+    padding: 16px 23px;
+    border-bottom: 1px solid #babec9;
+    font-size: 14px;
+    position:relative;
+}
+.list ul{
+    list-style: none;
+    line-height: 22px;
+    float: left;
+
+}
+.list ul i{
+    margin-right: 5px;
+}
+.list ul  li:nth-child(2) i{
+    font-size: 20px;
+    margin-left: -2px;
+    margin-right: 0;
+}
+.list ul  li:nth-child(3) i{
+    font-size: 14px;
+    margin-left: 2px;
+}
+.list>div{
+    float: right;
+    margin-top: -3px;
+}
+.list>div:nth-child(2)>a{
+    float: left;
+    margin-left: 50px;
+    color:#000;
+    line-height: 68px;
+}
+.list>div:nth-child(2)>a i{
+    margin-right: 3px;
+}
+.showmore{
+    line-height: 60px;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(../../images/morebg_06.jpg);
+    background-repeat: repeat-x;
+
+}
+.showmore>a{
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+
+}
+.showmore .toup{
+    display: none;
+}

@@ -66,13 +66,13 @@ class Footer extends Component {
   	  	 	  	     <div className="pic2">
   		  	 	  	      <p>关注我们</p>
                       <img className="box1" src={box1} alt=""/>
-
+                        <br/>
                       <img className="box2" src={box2} alt=""/>
 
   	  	 	  	     </div>
   	  	 	  	  	 <div className="pic1">
 
-                     <img className="box3" src={box3} alt=""/>
+                     <img className="box3" src={box3} alt=""/> <br/>
                        <img className="box4" src={box4} alt=""/>
 
   	  	 	  	  	 </div>

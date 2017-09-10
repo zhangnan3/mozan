@@ -36,7 +36,7 @@ class Main extends Component {
         className={`box ${this.state.activeIndex===i&& 'active'}`}
         key={i}>{t.box}</div>))
     return (
-         <div className="Main">
+         <div className="main1">
              <div className="main clearfix">
                  <div className="left clearfix">
                     <img className="box5" src={box5} alt=""/>

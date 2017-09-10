@@ -15,7 +15,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="Header">
+      <div className="header">
           <div className="top">
             <div className="topon">
                <a className="logo" href="#">
