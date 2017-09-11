@@ -36,7 +36,7 @@ class Main extends Component {
         className={`box ${this.state.activeIndex===i&& 'active'}`}
         key={i}>{t.box}</div>))
     return (
-         <div className="main1">
+         <div className="main2">
              <div className="main clearfix">
                  <div className="left clearfix">
                     <img className="box5" src={box5} alt=""/>
@@ -74,8 +74,8 @@ class Main extends Component {
                  <a href="#">立即预购</a>
               </div>
         </div>
-              <div className="main1">
-                   <img Name="box1" src={box1} alt=""/>
+              <div className="main1 clearfix">
+                   <img className="box1" src={box1} alt=""/>
                    <img className="box2" src={box2} alt=""/>
                    <img className="box3" src={box3} alt=""/>
                    <img className="box4" src={box4} alt=""/>

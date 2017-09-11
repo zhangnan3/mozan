@@ -69,6 +69,7 @@ import React, { Component } from 'react'
     render () {
      const { date, hour, min, sec } = this.state
       return (
+        <div class="time1">
         <div className="over">
             <span className="day">
             <em>{date}</em>
@@ -94,6 +95,7 @@ import React, { Component } from 'react'
             <b></b>
             <b>秒</b>
             </span>
+          </div>
           </div>
       )
     }

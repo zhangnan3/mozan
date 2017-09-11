@@ -39,62 +39,62 @@ class Shang extends Component {
         </div>
       </div>
     </div>
-    <div className="down">
-          <div className="other-need clearfix">
-            <h4> 您可能还需要</h4>
-            <span className="line-yellow">
+       <div className="down1">
+          <div className="down">
+                <div className="other-need clearfix">
+                  <h4> 您可能还需要</h4>
+                  <span className="line-yellow">
+                  </span>
+                </div>
+                <ul className="other clearfix">
+                  <li className="clearfix">
+                    <a className="othimg" href=" "><img Name="box2" src={box2} alt=""/></a >
+                    <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
 
-            </span>
-          </div>
-          <ul className="other clearfix">
-            <li className="clearfix">
-              <a className="othimg" href=" "><img Name="box2" src={box2} alt=""/></a >
-              <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
+                    <span className="price">¥88.00</span>
+                    <a className="addbag" href="http">
+                        <Logo2 color='yellow' size='20px'/>
+                    </a >
+                  </li>
+                  <li className="clearfix">
+                    <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
+                    <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
 
-              <span className="price">¥88.00</span>
-              <a className="addbag" href="http">
-                  <Logo2 color='yellow' size='20px'/>
-              </a >
-            </li>
-            <li className="clearfix">
-              <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
-              <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
+                    <span className="price">¥88.00</span>
+                    <a className="addbag" href="http">
+                        <Logo2 color='yellow' size='20px'/>
+                    </a >
+                  </li>
+                  <li className="clearfix">
+                    <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
+                    <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
 
-              <span className="price">¥88.00</span>
-              <a className="addbag" href="http">
-                  <Logo2 color='yellow' size='20px'/>
-              </a >
-            </li>
-            <li className="clearfix">
-              <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
-              <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
+                    <span className="price">¥88.00</span>
+                    <a className="addbag" href="http">
+                       <Logo2 color='yellow' size='20px'/>
+                    </a >
+                  </li>
+                  <li className="clearfix">
+                    <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
+                    <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
 
-              <span className="price">¥88.00</span>
-              <a className="addbag" href="http">
-                 <Logo2 color='yellow' size='20px'/>
-              </a >
-            </li>
-            <li className="clearfix">
-              <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
-              <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
+                    <span className="price">¥88.00</span>
+                    <a className="addbag" href="http">
+                       <Logo2 color='yellow' size='20px'/>
+                    </a >
+                  </li>
+                  <li className="clearfix">
+                    <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
+                    <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
 
-              <span className="price">¥88.00</span>
-              <a className="addbag" href="http">
-                 <Logo2 color='yellow' size='20px'/>
-              </a >
-            </li>
-            <li className="clearfix">
-              <a className="othimg" href="http"><img Name="box2" src={box2} alt=""/></a >
-              <a className="title2" href="http">龙之谷六周年限定礼包大boss冰龙款...</a >
-
-              <span className="price">¥88.00</span>
-              <a className="addbag" href="http">
-                  <Logo2 color='yellow' size='20px'/>
-              </a >
-            </li>
-          </ul>
-        </div>
-
+                    <span className="price">¥88.00</span>
+                    <a className="addbag" href="http">
+                        <Logo2 color='yellow' size='20px'/>
+                    </a >
+                  </li>
+                </ul>
+              </div>
+            </div>
         </div>
 
 

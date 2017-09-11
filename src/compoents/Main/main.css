@@ -1,7 +1,6 @@
-.main1{
-
-      width: 1200px;
-      margin: 0 auto;
+.main2{
+      width: 100%;
+        background-image: url('../../images/bj_03.jpg');
   }
   .main{
   width: 1100px;
@@ -148,5 +147,8 @@
   text-decoration: none;
   }
 .main1{
-  background-image: url('../../images/bj_03.jpg');
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+
 }

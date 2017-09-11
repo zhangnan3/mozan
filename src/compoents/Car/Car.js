@@ -44,7 +44,7 @@ class Car extends Component {
   						</p>
   					</div>
           </div>
-          <form className="list">
+          <form className="list8 clearfix">
   					<div className="title">
   						<input type="checkbox" id="all" class="all"/>
   						<label for="all">全选</label>

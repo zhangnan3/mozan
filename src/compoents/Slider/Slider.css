@@ -6,13 +6,18 @@
   font-size: 30px;
 }*/
 .banner{
-  width: 1200px;
-  padding: 30px 0px 30px 0px;
-  background-color: yellow;
-  margin: 0 auto;
+  width: 100%;
+  background-image: url('../../images/bj_03.jpg');
+
 }
 .banneron{
   width: 1099px;
   margin: 0 auto;
   padding-left: 20px;
+}
+.banner1{
+  width: 1200px;
+  padding: 30px 0px 30px 0px;
+  background-color: yellow;
+  margin: 0 auto;
 }

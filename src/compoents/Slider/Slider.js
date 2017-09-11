@@ -46,10 +46,11 @@ class Sliders extends Component {
     )
     return (
       <div className='banner'>
-        <div className="banneron">
-           {slides}
-        </div>
-
+        <div className="banner1">
+            <div className="banneron">
+               {slides}
+            </div>
+      </div>
       </div>
     )
   }
