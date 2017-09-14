@@ -4,6 +4,7 @@ import './down1.css';
 import box2 from '../../images/yushou_03.png'
 import box1 from '../../images/join_01.jpg'
 import img from '../../images/join_01.jpg'
+import {HashRouter as Router,Route,Link} from 'react-router-dom'
 class Down1 extends Component {
   state={
     app1:[
@@ -86,7 +87,7 @@ class Down1 extends Component {
                 <span>￥168.00</span>
               </p>
               <div className="clearfix">
-                <a href="counter.html" className="btn">提交订单</a>
+                <Link to='/Ding'><a href="counter.html" className="btn">提交订单</a></Link>
               </div>
             </div>
 

@@ -7,16 +7,25 @@ import box2 from '../../images/pic6_10.jpg'
 import box3 from '../../images/pic7_11.jpg'
 import box4 from '../../images/pic8_11.jpg'
 import box5 from '../../images/yushou_03.png'
-
+import Slider from'../Slider/Slider'
+import {HashRouter as Router,Route,Link} from 'react-router-dom'
 class Main extends Component {
     state = {
     activeIndex: 0,
     activeIndex1: 0,
     count:0,
     app1: [
-      {box:'iphone5'},{box: 'iphone6'},{box: 'iphone7'}],
+      {box1:'iphone5'},{box1: 'iphone6'},{box1: 'iphone7'}],
     app2: [
-      {box:'XS'},{box:'XXS'},{box:'S'},{box:'M'},{box: 'L'},{box: 'XL'},{box: 'XXL'}  ]}
+      {size9:'XS'},
+      {size9:'XXS'},
+      {size9:'S'},
+      {size9:'M'},
+      {size9: 'L'},
+      {size9: 'XL'},
+      {size9: 'XXL'}
+     ]
+   }
      handleClick = (i) => {this.setState({activeIndex: i})}
 
         handleClicks = (i) => {this.setState({  activeIndex1: i  })}
@@ -28,15 +37,18 @@ class Main extends Component {
        render() {
          const left = this.state.app1.map((t, i) => (
            <div onClick={() => this.handleClicks(i)}
-             className={`box ${this.state.activeIndex1===i&& 'active'}`}
-             key={i}>{t.box}</div>))
+             className={`box1 ${this.state.activeIndex1===i&& 'active'}`}
+             key={i}>{t.box1}</div>))
 
       const list1 = this.state.app2.map((t, i) => (
       <div onClick={() => this.handleClick(i)}
-        className={`box ${this.state.activeIndex===i&& 'active'}`}
-        key={i}>{t.box}</div>))
+        className={`size9 ${this.state.activeIndex===i&& 'active'}`}
+        key={i}>{t.size9}</div>))
     return (
+      <Router>
+
          <div className="main2">
+             <Slider/>
              <div className="main clearfix">
                  <div className="left clearfix">
                     <img className="box5" src={box5} alt=""/>
@@ -70,9 +82,11 @@ class Main extends Component {
                    <a className="add" onClick={this.handleClick2} >+</a>
                  </div>
               </div>
+
               <div className="rush clearfix">
-                 <a href="#">立即预购</a>
+                   <Link to='/Shang'><a href="#">立即预购</a></Link>
               </div>
+
         </div>
               <div className="main1 clearfix">
                    <img className="box1" src={box1} alt=""/>
@@ -81,7 +95,10 @@ class Main extends Component {
                    <img className="box4" src={box4} alt=""/>
              </div>
          </div>
+       </Router>
+
     )
+
   }
 }
 export default Main;

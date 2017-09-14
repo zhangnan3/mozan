@@ -17,7 +17,7 @@ import React, { Component } from 'react'
     this.setState({
        initVal: this.state.initVal -1
      })
-     var taagetDate=0,targetHours=0,targetMinutes=0,targetSeconds=0;
+     var taagetDate=30,targetHours=0,targetMinutes=0,targetSeconds=0;
          var date=new Date()
          var nowDate=date.getDate()
          var nowHours=date.getHours()
@@ -61,9 +61,12 @@ import React, { Component } from 'react'
     }
 
 
-    componentDidMount = () => {
-     console.log('didmount')
-      window.setInterval(this.tick, 1000)
+    componentDidMount = () =>{
+      this.timer=setInterval(this.tick, 1000)
+    }
+
+    componentWillUnmount = () =>{
+      window.clearInterval(this.timer)
     }
 
     render () {

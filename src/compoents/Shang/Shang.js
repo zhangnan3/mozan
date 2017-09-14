@@ -6,7 +6,7 @@ import Footer from'../Footer/Footer'
 import box1 from '../../images/join_01.jpg'
 import box2 from'../../images/pic3_03.jpg'
 import Logo2 from "../Logo1/Logo3"
-
+import {HashRouter as Router,Route,Link} from 'react-router-dom'
 class Shang extends Component {
   render (){
     return(
@@ -35,7 +35,7 @@ class Shang extends Component {
         </div>
         <div className="btn clearfix">
           <a href="index.html">返回</a>
-          <a href="buycar.html">去购物车结算</a>
+          <Link to='/Car'><a href="buycar.html">去购物车结算</a></Link>
         </div>
       </div>
     </div>
